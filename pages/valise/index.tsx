@@ -1,10 +1,10 @@
-import Link from 'next/Link';
+import Link from 'next/link';
 import React from 'react';
 
 import { useRouter } from 'next/router'
 
 
-const index = () => {
+const Index = () => {
   const router = useRouter();
 
   const testProject = 'testProject'
@@ -29,4 +29,4 @@ const index = () => {
   )
 }
 
-export default index
+export default Index
